@@ -1,0 +1,12 @@
+/Users/apcox/Documents/git/PortalsRPG/bin/Debug/netcoreapp3.1/PortalsRPG.deps.json
+/Users/apcox/Documents/git/PortalsRPG/bin/Debug/netcoreapp3.1/PortalsRPG.runtimeconfig.json
+/Users/apcox/Documents/git/PortalsRPG/bin/Debug/netcoreapp3.1/PortalsRPG.runtimeconfig.dev.json
+/Users/apcox/Documents/git/PortalsRPG/bin/Debug/netcoreapp3.1/PortalsRPG.dll
+/Users/apcox/Documents/git/PortalsRPG/bin/Debug/netcoreapp3.1/PortalsRPG.pdb
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.csprojAssemblyReference.cache
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.AssemblyInfoInputs.cache
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.AssemblyInfo.cs
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.csproj.CoreCompileInputs.cache
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.dll
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.pdb
+/Users/apcox/Documents/git/PortalsRPG/obj/Debug/netcoreapp3.1/PortalsRPG.genruntimeconfig.cache
