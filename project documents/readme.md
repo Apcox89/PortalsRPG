@@ -4,4 +4,4 @@ Please see:
 
 "PoT-Use-Case-Update" for a diagram of how the game works.
 
-+ visuals made with Adobe Spark for marketing.
+'visuals' folder contains images made with Adobe Spark for marketing.
