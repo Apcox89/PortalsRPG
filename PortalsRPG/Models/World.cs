@@ -18,7 +18,7 @@ namespace PortalsRPG.Models
         public const int LOCATION_ID_DESTROYED_STATUE = 2;
         public const int LOCATION_ID_ABANDONED_SATELLITE = 3;
         public const int LOCATION_ID_TERMINAL_ACCESS = 4;
-        public const int LOCATION_ID__FOREST = 5;
+        public const int LOCATION_ID_FOREST = 5;
         public const int LOCATION_ID_REBEL_OUTPOST = 6;
         public const int LOCATION_ID_ROBO_GUARD_CAMP = 7;
         public const int LOCATION_ID_OBSERVER_BATTLE = 8;
@@ -81,11 +81,23 @@ namespace PortalsRPG.Models
                     "Once used for inter-human telecommunication, the robots deemed this facility unusable for their purposes.");
             Location terminalAccess = new Location(LOCATION_ID_TERMINAL_ACCESS, "Terminal-Computer Access",
                     "There is an old computer terminal that works here."); terminalAccess.QuestAvailable = FindQuestByID(MISSION_ID_CLEAR_TERMINAL_ACCESS);
+
+            Location forest = new Location(LOCATION_ID_FOREST, "A misty forest.", "You find a wooded area shrowded by a smoky haze.");
+
+            //+ add instances of Player_move like in 'SuperAdventure' World_class
+
+            terminalAccess.MoveSouth = abandonedSatellite;
+
+            abandonedSatellite.MoveSouth = destroyedStatue;
+
+            destroyedStatue.MoveWest = forest;
+
            
             Locations.Add(baseCamp);
             Locations.Add(abandonedSatellite);
             Locations.Add(destroyedStatue);
             Locations.Add(terminalAccess);
+            Locations.Add(forest);
         }
 
         private static void GenerateArtifacts()
